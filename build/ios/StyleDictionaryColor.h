@@ -4,20 +4,36 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 16 Dec 2021 18:06:29 GMT
+// Generated on Wed, 16 Feb 2022 16:13:36 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorColorsMultipleFills0,
-ColorColorsMultipleFills1,
-ColorColorsSingleBlue,
-ColorColorsRefBlue,
-ColorColorsSpecialCharacters,
-ColorColorsSpecialCharactersNderung,
-ColorLightBackground,
-ColorDarkBackground
+ColorPrimaryActive,
+ColorSecondaryActive,
+ColorSecondaryHover,
+ColorSecondaryPressed,
+ColorTertiaryHoverShade,
+ColorTertiaryActionButton,
+ColorBrandActive,
+ColorGrayWhite,
+ColorGrayHighLight,
+ColorGrayLight,
+ColorGrayLowLight,
+ColorGrayBase,
+ColorGrayHighDark,
+ColorGrayDark,
+ColorGrayLowDark,
+ColorStatusColoursError,
+ColorStatusColoursErrorLight,
+ColorStatusColoursInfo,
+ColorStatusColoursInfoLight,
+ColorStatusColoursSuccess,
+ColorStatusColoursSuccessLight,
+EffectBoxshadowFocusColor,
+EffectBoxshadowCardColor,
+EffectBoxshadowFabColor
 };
 
 @interface StyleDictionaryColor : NSObject
